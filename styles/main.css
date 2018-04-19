@@ -68,7 +68,7 @@ ul {
 	padding: 0;
 }
 
-li {
+#nav_menu > li { /* li is child of nav_menu ul*/
 	float: left;
 }
 
@@ -85,6 +85,22 @@ a {
 }
 
 /* custom classes*/
+
+#nav_menu, .dropdown {
+	position: relative;
+}
+
+.sub_menu {
+	display: none;
+	position: absolute;
+}
+
+.dropdown:hover .sub_menu {
+	display: block;
+
+}
+
+
 .shadow {
 	text-shadow: 1px 1px #800000;
 }
