@@ -72,7 +72,7 @@ ul {
 	float: left;
 }
 
-a {
+#nav_menu a {
 	display: block;
 	width: 160px; /* 1/5th body */
 	text-align: center;
